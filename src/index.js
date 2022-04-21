@@ -14,3 +14,13 @@ function addGrade(name,grade) {
 
     myList.appendChild(div);
 }
+
+
+
+
+grades.set("john",90);
+grades.set("ryan",80);
+grades.set("josh",70);
+grades.set("amy",60);
+
+grades.forEach( (grade, name) => addGrade(name,grade + "%"));
